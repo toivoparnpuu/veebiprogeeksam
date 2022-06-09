@@ -7,7 +7,8 @@ if (have_posts()) {
     <section>
 
       <?php
-      while (have_posts()) {?>
+      while (have_posts()) {
+        echo(''); ?>
         <div class="box">
         <div class="pictures">
           <?php if (has_post_thumbnail()) {
@@ -38,10 +39,9 @@ if (have_posts()) {
             echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
             ?>
           </p>
+
+
         </div>
-
-
-
       <?php
       }
       ?>
