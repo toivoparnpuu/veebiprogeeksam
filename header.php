@@ -12,5 +12,4 @@
 <body>
 <header>
     <h1><?php echo get_bloginfo('name');?> </h1>
-    <h1>Meie töötajad</h1>
 </header>
