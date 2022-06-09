@@ -8,7 +8,9 @@ html {
 main {
     width: 80%;
     margin: 2em auto;
-    columns: 100px 3;
+    --grid-column-count: 2;
+    display: grid;
+
 }
 
 
