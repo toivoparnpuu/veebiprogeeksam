@@ -38,11 +38,10 @@ if (have_posts()) {
         </div>    
     </section>
     
-      </main>
   <?php
   }
   ?>
-
+  </main>
 
 <?php
 }
