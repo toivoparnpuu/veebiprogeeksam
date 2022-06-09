@@ -5,12 +5,12 @@ if (have_posts()) {
   <main>
     <h1>Meie töötajad</h1>
     <section>
-      <div class="pictures">
+      <div>
       <?php
       while (have_posts()) {
         the_post(); ?>
 
-        <div>
+        <div class="pictures">
           <?php if (has_post_thumbnail()) {
             the_post_thumbnail();
             the_post_thumbnail('category-bigger');

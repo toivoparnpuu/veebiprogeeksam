@@ -28,7 +28,7 @@ h1 {
 
 
 
-.figure img.attachment-category-bigger {
+.pictures img.attachment-category-bigger {
     display: none;
     position: absolute;
     top: 0;
@@ -36,7 +36,7 @@ h1 {
     
 }
 
-.figure:hover img.attachment-category-bigger {
+.pictures:hover img.attachment-category-bigger {
     display: inline;
 }
 
