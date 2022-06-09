@@ -9,22 +9,22 @@ if (have_posts()) {
       <div>
         <h2><?php the_title(); ?></h2>
         <div class="subpagecontainter">
-          <div>Kõrgus:
+          <div>Nimi:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
             ?>
           </div>
-          <div>Asukoht:
+          <div>Tutvustus:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'short_bio', $single = true));
             ?>
           </div>
-          <div>Kivi tüüp:
+          <div>e-mail:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'email', $single = true));
             ?>
           </div>
-          <div>Radade arv:
+          <div>Amet:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
             ?>
