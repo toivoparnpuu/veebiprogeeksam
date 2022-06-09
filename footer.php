@@ -1,5 +1,5 @@
 <footer>
-    <h2><?php echo get_bloginfo('name');?> </h2>
+    <div>Ettevõtte XYZ, toimetamas</div>
 </footer>
 </body>
 </html>
