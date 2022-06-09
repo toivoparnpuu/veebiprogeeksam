@@ -32,11 +32,18 @@ h1 {
     left: 0;
   }
 
+.pictures img.attachment-post-thumbnail {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .pictures img.attachment-category-bigger {
     display: none;
     position: relative;
     top: 0;
     left: 0;
+    z-index: 2;
     
 }
 
