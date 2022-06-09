@@ -9,6 +9,12 @@ if (have_posts()) {
       <div>
         <h2><?php the_title(); ?></h2>
         <div class="subpagecontainter">
+          <div>
+            <?php if (has_post_thumbnail()) {
+              the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );
+            }
+            ?>
+          </div>
           <div>Nimi:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
