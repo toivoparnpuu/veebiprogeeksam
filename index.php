@@ -9,7 +9,7 @@ if (have_posts()) {
       <?php
       while (have_posts()) {
         the_post(); ?>
-
+        <div class="box">
         <div class="pictures">
           <?php if (has_post_thumbnail()) {
             the_post_thumbnail();
@@ -41,7 +41,7 @@ if (have_posts()) {
           </p>
 
 
-
+        </div>
       <?php
       }
       ?>
