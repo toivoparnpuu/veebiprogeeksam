@@ -5,7 +5,7 @@ if (have_posts()) {
   <main>
     <h1>Meie töötajad</h1>
     <section>
-      <div>
+
       <?php
       while (have_posts()) {
         the_post(); ?>
@@ -39,7 +39,7 @@ if (have_posts()) {
             echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
             ?>
           </p>
-        </div>
+
 
 
       <?php
