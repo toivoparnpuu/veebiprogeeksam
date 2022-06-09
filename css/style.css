@@ -6,7 +6,7 @@ html {
 }
 
 main {
-    width: 80%;
+    width: 100%;
     margin: 2em auto;
     --grid-layout-gap: 10px;
     --grid-column-count: 4;
