@@ -6,43 +6,44 @@ if (have_posts()) {
     <?php
     while (have_posts()) {
       the_post(); ?>
-      <div>
+      <section>
         <h2><?php the_title(); ?></h2>
-        <div class="subpagecontainter">
+
           <div>
             <?php if (has_post_thumbnail()) {
               the_post_thumbnail();
             }
             ?>
-          </div>
-          <div>Nimi:
+          
+          <h2>Nimi:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
             ?>
-          </div>
-          <div>Tutvustus:
+          </h2>
+          <p>Tutvustus:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'short_bio', $single = true));
             ?>
-          </div>
-          <div>e-mail:
+          </p>
+          <p>e-mail:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'email', $single = true));
             ?>
-          </div>
-          <div>Amet:
+          </p>
+          <p>Amet:
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
             ?>
+          </p>
           </div>
-        </div>
+          </section>
 
       </div>
 
     <?php
     }
     ?>
-  </div>
+
 
 <?php
 }
