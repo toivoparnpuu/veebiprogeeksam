@@ -20,17 +20,17 @@ if (have_posts()) {
             echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
             ?>
           </h2>
-          <p>Tutvustus:
+          <p><b>Tutvustus:</b>
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'short_bio', $single = true));
             ?>
           </p>
-          <p>e-mail:
+          <p><b>e-mail:</b>
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'email', $single = true));
             ?>
           </p>
-          <p>Amet:
+          <p><b>Amet:</b>
             <?php
             echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
             ?>
