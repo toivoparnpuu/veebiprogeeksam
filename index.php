@@ -5,6 +5,7 @@ if (have_posts()) {
   <main>
     <h1>Meie töötajad</h1>
     <section>
+      <div class="pictures">
       <?php
       while (have_posts()) {
         the_post(); ?>
@@ -16,6 +17,7 @@ if (have_posts()) {
             
           }
           ?>
+        </div>
 
           <h2>Nimi:
             <?php

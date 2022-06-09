@@ -1,72 +1,82 @@
 html {
     font-family: 'AdobeGaramondW01-Regula', georgia, serif;
     font-size: 18px;
-    margin-bottom: 200px; }
-  
-  main {
-    width: 80%;
-    margin: 2em auto; }
-  
+    margin-bottom: 200px;
+}
 
-  footer {
+main {
+    width: 80%;
+    margin: 2em auto;
+}
+
+
+footer {
     text-align: center;
     margin: 3em 0 3em 0;
-    clear: both; }
-  
-  h1 {
+    clear: both;
+}
+
+h1 {
     font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;
     font-size: 3rem;
     color: #64664A;
     margin: 0 0 1em;
     line-height: 1.1em;
     -webkit-column-span: all;
-            column-span: all; }
-  
+    column-span: all;
+}
 
-    /*
-      Rollover Image
-     */
-     .figure {
-        position: relative;
-        max-width: 100%;
-    }
-    .figure img.image-hover {
-      position: absolute;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      object-fit: contain;
-      opacity: 0;
-      transition: opacity .2s;
-    }
-    .figure:hover img.image-hover {
-      opacity: 1;
-    }
 
-  h2 {
+
+.figure {
+    position: relative;
+    max-width: 100%;
+}
+
+.figure img.attachment-category-bigger {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.figure:hover img.attachment-category-bigger {
+    opacity: 1;
+}
+
+h2 {
     font-family: 'BauerBodoniW01-BoldDisp', georgia, serif;
     font-size: 1.5rem;
     color: #64664A;
-    font-weight: 400; }
-  
-  p {
-    line-height: 1.5em; 
+    font-weight: 400;
+}
+
+p {
+    line-height: 1.5em;
     display: block;
 }
-  
 
-  
-  section {
+
+
+section {
     -webkit-column-width: 300px;
-            column-width: 300px; }
-    section div {
-      border: 1px solid black;
-      margin: 0 10px 20px;
-      padding-bottom: 1rem;
-      -webkit-column-break-inside: avoid;
-              break-inside: avoid; }
-    section h2, section p {
-      margin: 0 1rem;
-      margin-right: 1rem; }
-  
+    column-width: 300px;
+}
+
+section div {
+    border: 1px solid black;
+    margin: 0 10px 20px;
+    padding-bottom: 1rem;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+}
+
+section h2,
+section p {
+    margin: 0 1rem;
+    margin-right: 1rem;
+}
