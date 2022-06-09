@@ -44,13 +44,16 @@ h1 {
     top: 0;
     left: 0;
     z-index: 2;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
     
 }
 
 .pictures:hover img.attachment-category-bigger {
     display: inline;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
+    visibility: visible;
+    opacity: 1;
+ 
 }
 
 h2 {
