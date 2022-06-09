@@ -11,7 +11,7 @@ if (have_posts()) {
         <div class="subpagecontainter">
           <div>
             <?php if (has_post_thumbnail()) {
-              the_post_thumbnail( 'thumbnail', array( 'class' => 'alignleft' ) );
+              the_post_thumbnail();
             }
             ?>
           </div>
