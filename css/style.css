@@ -5,12 +5,17 @@ html {
     background-color: antiquewhite;
 }
 
-main {
-    width: 100%;
-    margin: 2em auto;
-    
 
-}
+.main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width: 500px) {
+    .main {
+      flex-direction: column;
+    }
+  }
 
 
 footer {
