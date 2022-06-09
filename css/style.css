@@ -49,6 +49,8 @@ h1 {
 
 .pictures:hover img.attachment-category-bigger {
     display: inline;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
 }
 
 h2 {
