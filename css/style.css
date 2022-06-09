@@ -40,7 +40,8 @@ h1 {
 }
 .pictures img.attachment-category-bigger {
     display: none;
-    position: relative;
+    position: absolute;
+    transition-duration: 500ms;
     top: 0;
     left: 0;
     z-index: 2;
