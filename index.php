@@ -8,8 +8,8 @@ if (have_posts()) {
 
       <?php
       while (have_posts()) {
-        echo(''); ?>
-        <div class="box">
+        the_post(); ?>
+
         <div class="pictures">
           <?php if (has_post_thumbnail()) {
             the_post_thumbnail();
@@ -41,7 +41,7 @@ if (have_posts()) {
           </p>
 
 
-        </div>
+
       <?php
       }
       ?>
