@@ -7,9 +7,7 @@ html {
     width: 80%;
     margin: 2em auto; }
   
-  article {
-    margin: 100px 0; }
-  
+
   footer {
     text-align: center;
     margin: 3em 0 3em 0;
@@ -33,40 +31,7 @@ html {
   p {
     line-height: 1.5em; }
   
-  article {
-    -webkit-column-width: 200px;
-            column-width: 200px;
-    -webkit-column-gap: 2em;
-            column-gap: 2em;
-    -webkit-column-rule: 1px solid #444;
-            column-rule: 1px solid #444; }
-    article img {
-      width: 100%;
-      margin: 1em 0;
-      display: block; }
-    article figure {
-      -webkit-column-span: all;
-              column-span: all;
-      margin: 1em 0;
-      font-style: italic;
-      color: #999; }
-  
-  ul {
-    -webkit-columns: 250px;
-            columns: 250px;
-    -webkit-column-break-inside: avoid;
-            break-inside: avoid;
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-    ul img {
-      width: 100%;
-      display: block;
-      -o-object-fit: cover;
-         object-fit: cover;
-      margin-top: 0px;
-      margin-bottom: 20px;
-      border: 1px solid black; }
+
   
   section {
     -webkit-column-width: 300px;
