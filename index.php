@@ -2,45 +2,46 @@
 get_header();
 if (have_posts()) {
 ?>
-<main>
-<h1>Meie töötajad</h1>
-
-  <?php
-  while (have_posts()) {
-    the_post(); ?>
+  <main>
+    <h1>Meie töötajad</h1>
     <section>
-      <div>
-        <?php if (has_post_thumbnail()) {
-          the_post_thumbnail();
-        }
-        ?>
+      <?php
+      while (have_posts()) {
+        the_post(); ?>
 
-        <h2>Nimi:
-          <?php
-          echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
+        <div>
+          <?php if (has_post_thumbnail()) {
+            the_post_thumbnail();
+          }
           ?>
-        </h2>
-        <p>Tutvustus:
-          <?php
-          echo (get_post_meta(get_the_ID(), $key = 'short_bio', $single = true));
-          ?>
-        </p>
-        <p>e-mail:
-          <?php
-          echo (get_post_meta(get_the_ID(), $key = 'email', $single = true));
-          ?>
-        </p>
-        <p>Amet:
-          <?php
-          echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
-          ?>
-        </p>
-        </div>    
+
+          <h2>Nimi:
+            <?php
+            echo (get_post_meta(get_the_ID(), $key = 'fullname', $single = true));
+            ?>
+          </h2>
+          <p>Tutvustus:
+            <?php
+            echo (get_post_meta(get_the_ID(), $key = 'short_bio', $single = true));
+            ?>
+          </p>
+          <p>e-mail:
+            <?php
+            echo (get_post_meta(get_the_ID(), $key = 'email', $single = true));
+            ?>
+          </p>
+          <p>Amet:
+            <?php
+            echo (get_post_meta(get_the_ID(), $key = 'job_role', $single = true));
+            ?>
+          </p>
+        </div>
+
+
+      <?php
+      }
+      ?>
     </section>
-    
-  <?php
-  }
-  ?>
   </main>
 
 <?php
