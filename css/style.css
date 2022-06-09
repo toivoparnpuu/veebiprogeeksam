@@ -8,6 +8,7 @@ html {
 main {
     width: 80%;
     margin: 2em auto;
+    columns: 100px 3;
 }
 
 
