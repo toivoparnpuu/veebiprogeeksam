@@ -13,5 +13,5 @@
  
     // additional image sizes
     // delete the next line if you do not need additional image sizes
-    add_image_size( 'category-thumb', 400, 9999 ); // 300 pixels wide (and unlimited height)
+    add_image_size( 'category-bigger', 400, 9999 ); // 300 pixels wide (and unlimited height)
  }

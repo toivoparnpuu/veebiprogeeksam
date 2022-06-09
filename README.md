@@ -20,7 +20,8 @@ job_role - töötaja amet
 
 short_bio - töötaja lühitutvustus
 
+Ettevõtte nimi tuleb blogi nimest.
+
 ## Töötaja pildi lisamine
 Töötaja pildi lisamiseks saab kasutada featured image funktsionaalust. Täpsemalt vaata: https://wordpress.com/support/featured-images/
-
 
